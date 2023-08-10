@@ -3,11 +3,12 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Milder Edgar ESCARCHA COLQUE
+    name: Milder Edgar
+    lastname: Escarcha Colque
     tagline: DevOps Engineer Sr.
     avatar: profile_edgar.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -16,7 +17,7 @@ sidebar:
     # phone: 
     timezone: Buenos Aires (GMT-3) Timezone
     citizenship:
-    website: www.linkedin.com/in/edgarcolque #do not add http://
+    website: edgarcolque.github.io/online-cv
     linkedin: edgarcolque
     # xing: alandoe
     github: edgarcolque
@@ -64,31 +65,32 @@ career-profile:
       with architectures, automation, CI/CD, protocols, etc. Exceptional communication, customer service, 
       and problem-solving skills.
 
-# education:
-#     title: Education
-#     info:
-#       - degree: MSc in Computer Science
-#         university: University of London
-#         time: 2011 - 2012
-#         details: |
-#           Describe your study here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#           sociis natoque penatibus et magnis dis parturient montes, nascetur
-#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#           pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
-#       - degree: BSc in Applied Mathematics
-#         university: Bristol University
-#         time: 2007 - 2011
-#         details: |
-#           Describe your study here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#           sociis natoque penatibus et magnis dis parturient montes, nascetur
-#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#           pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
+education:
+    title: Education
+    info:
+      - degree: University diploma in CyberSecurity
+        university: FAMAF-UNC - Faculty of Mathematics, Astronomy, Physics, and Computer Science
+        time: 2023 - Present
+        details: |
+          Promote the use of best practices in the cybersecurity domain.
+            - Aspects of malware and cyber-attack modalities
+            - Network and server security aspects
+            - Authentication, Authorization, and Auditing
+            - Applied cryptography
+            - Information security risk management
+            - Cybersecurity Incident Management and Operation
+            - Cloud Security
+      # - degree: BSc in Applied Mathematics
+      #   university: Bristol University
+      #   time: 2007 - 2011
+      #   details: |
+      #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #     pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
 experiences:
     title: Experiences
     info:
@@ -302,33 +304,33 @@ certifications:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Terraform
-        level: 98%
+#     toolset:
+#       - name: Terraform
+#         level: 98%
 
-      - name: Kubernetes
-        level: 98%
+#       - name: Kubernetes
+#         level: 98%
 
-      - name: Groovy
-        level: 90%
+#       - name: Groovy
+#         level: 90%
 
-      - name: AWS
-        level: 90%
+#       - name: AWS
+#         level: 90%
 
-      - name: Azure
-        level: 80%
+#       - name: Azure
+#         level: 80%
 
-      - name: CI/CD Tools
-        level: 90%
+#       - name: CI/CD Tools
+#         level: 90%
 
-      - name: IaC Tools
-        level: 90%
+#       - name: IaC Tools
+#         level: 90%
 
-      - name: Python
-        level: 60%
+#       - name: Python
+#         level: 60%
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

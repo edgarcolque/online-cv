@@ -11,6 +11,10 @@
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
+    {% if sidebar.name %}
+    <h2 class="lastname">{{ sidebar.lastname }}</h2>
+    {% endif %}
+
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
